@@ -19,4 +19,4 @@ RUN pip install face_recognition
 #Install application requirements
 RUN pip install -r requirements.txt
 
-CMD ["python","app.py"]
+CMD ["app.py"]
